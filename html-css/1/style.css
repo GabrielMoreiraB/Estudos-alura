@@ -12,6 +12,14 @@ body{
 }
 
 #sobre{
-    background-color: rgb(156, 154, 154);
+    background-color: #cccccc;
     text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong{
+    color: red;
 }

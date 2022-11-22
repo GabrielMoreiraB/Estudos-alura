@@ -11,9 +11,19 @@ body{
     max-width: 1050px;
 }
 
+header{
+    text-align:left ;
+    padding: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
 #sobre{
     background-color: #cccccc;
     text-align: center;
+    padding: 30px;
 }
 
 #missao {
@@ -22,4 +32,32 @@ body{
 
 em strong{
     color: red;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+
+}
+
+ul {
+    display: inline-block;
+    
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 20px;
+}
+.beneficios{
+    padding: 20px;
+}
+
+.itens{
+    font-style: italic;
+
+}
+
+.img_bene {
+    
+    width: 50%;
 }

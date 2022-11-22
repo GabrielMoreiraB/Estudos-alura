@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    margin: auto;
+    max-width: 1050px;
+}
+
+#sobre{
+    background-color: rgb(156, 154, 154);
+}

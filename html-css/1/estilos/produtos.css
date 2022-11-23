@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+header > nav, h1 {
+    display: inline-block;
+}
+
+

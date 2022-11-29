@@ -1,4 +1,6 @@
-@charset "UTF-8";
+body{
+    font-family: 'Montserrat', sans-serif; ;
+}
 
 *{
     margin: 0px;
@@ -161,4 +163,40 @@ td, th{
 th{
     background-color:#555555;
     color: white;
+}
+
+/*css pagina inicial */
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+    clear:left
+}
+
+.utensilios{
+    width: 120px;
+    margin: 0 20px 20px;
+    float: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.img_bene{
+    width: 60%;
 }

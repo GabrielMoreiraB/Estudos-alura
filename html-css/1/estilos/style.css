@@ -110,8 +110,7 @@ footer> .copy{
 }
 
 main{
-    width: 940px;
-    margin: 0 auto;
+    
 }
 
 form {
@@ -187,6 +186,8 @@ th{
 .principal{
     padding: 3em 0;
     background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -204,6 +205,11 @@ th{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p{
@@ -213,7 +219,8 @@ th{
 
 .beneficios{
     padding: 3em 0;
-    background-color: #888;
+    background: #888888;
+    
 }
 
 .conteudo-beneficios{
@@ -233,6 +240,10 @@ th{
 
 .itens{
     line-height:1.5 ;
+}
+
+.itens:before { /*pseudo elemento q coloca coisas antes do iten, after tbm funciona*/
+    content: "★";
 }
 
 .itens:first-child{

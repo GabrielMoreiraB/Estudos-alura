@@ -65,7 +65,7 @@ ul#produtos > li {
     box-sizing: border-box;
 }
 ul#produtos > li > h2 {
-    height: 50px;
+    height: 60px;
 }
 
 
@@ -107,10 +107,6 @@ footer> .copy{
     color: white;
     font-size: 13px;
     margin-top: 20px;
-}
-
-main{
-    
 }
 
 form {
@@ -236,6 +232,12 @@ th{
 
 .imgem-beneficios{
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 rgb(0,0,0);
+}
+.imgem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .itens{
@@ -253,3 +255,40 @@ th{
     width: 650px;
     margin: 2em auto;
 }
+
+@media screen and (max-width:480px) {
+    .caixa, .principal, .conteudo-beneficios, .video{
+        width: auto;
+        margin: auto;
+    }
+
+    .mapa-conteudo{
+        width: auto;
+        padding: 0 10px 0 10px;
+    }
+
+    h1 {
+        display: block;
+        text-align: center;
+    }
+    
+    nav {
+        position:static;
+
+    }
+
+    .imgem-beneficios, .lista-beneficios{
+        width: 100%;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .principal{
+        padding: 0px;
+    }
+
+    }ul#produtos > li{
+        display: block;
+        margin-bottom: 20px;
+        
+    }

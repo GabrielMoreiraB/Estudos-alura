@@ -65,7 +65,7 @@ ul#produtos > li {
     box-sizing: border-box;
 }
 ul#produtos > li > h2 {
-    height: 60px;
+    height: 70px;
 }
 
 
@@ -287,8 +287,10 @@ th{
         padding: 0px;
     }
 
-    }ul#produtos > li{
+    ul#produtos > li{
         display: block;
         margin-bottom: 20px;
         
+        
     }
+}

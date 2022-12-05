@@ -116,29 +116,33 @@ body{
 }
 
 .cartao__conteudo{
-    padding: 16px;
-    color: #95999C
+    color: white;
+    padding: 24px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
 .cartao__destaque{
-    color: white;
+    grid-column: span 2;
 }
 
 .cartao__titulo{
     font-size: 1.2rem;
     font-weight: 700;
-    color: white;
+    grid-column: span 2;
 }
 
 .cartao__perfil{
-    color: #95999C;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 
 .cartao__info{
     display: flex;
     align-items: center;
+}
+.cartao__infor--tempo, .cartao__infor--visualizacao{
     color: #95999C;
 }
 
@@ -161,7 +165,6 @@ body{
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
-    color: white;
 }
 
 .cartao__botao--play::before{
@@ -172,6 +175,8 @@ body{
 
 .cartao__botao--destaque{
     width: 100%;
+    grid-column: span 2;
+    
 }
 
 .cartao__botao--destaque::before{

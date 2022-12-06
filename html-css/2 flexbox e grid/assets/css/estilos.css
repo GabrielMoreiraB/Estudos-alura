@@ -100,6 +100,8 @@ body{
 
 .principal{
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina{
@@ -107,19 +109,28 @@ body{
     font-weight: 700;
 }
 
+.titulo-secao{
+    font-size: 1.2rem;
+    font-weight: 700; 
+}
+
 .cartao{
     width: 100%;
     border-radius: 15px;
     overflow: hidden; /*qualquer coisa que passar do cartão fica escondido*/
     background-color:#2C343A ;
+}
 
+.cartao--destaque{
+    margin-bottom: 16px;
 }
 
 .cartao__conteudo{
     color: white;
     padding: 24px 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
 
 }
 
@@ -144,6 +155,8 @@ body{
 }
 .cartao__infor--tempo, .cartao__infor--visualizacao{
     color: #95999C;
+    display: flex;
+    align-items: center;
 }
 
 .cartao__infor--tempo::before{
@@ -156,6 +169,11 @@ body{
     margin-right: 8px;
 }
 
+.cartao__infor--rs::before{
+    content: "\e905";
+    margin-right: 8px;
+}
+
 .cartao__botao{
     display: flex;
     justify-content: center;
@@ -165,13 +183,19 @@ body{
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before{
     content: "\e90b";
     font-size: 24px;
-
 }
+
+.cartao__botao--comprar::before{
+    content: "\e901";
+    font-size: 24px;
+}
+
 
 .cartao__botao--destaque{
     width: 100%;
@@ -183,6 +207,10 @@ body{
     margin-right: 8px;
 }
 
+.secao{
+    display: grid;
+    gap: 16px;
+}
 
 
 

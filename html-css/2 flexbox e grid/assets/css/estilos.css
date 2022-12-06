@@ -10,7 +10,7 @@ body{
 }
 
 @media screen and (min-width: 1440px) {
-    body {
+    body{
         display: grid;
         grid-template-columns: auto 1fr;
     }
@@ -52,6 +52,7 @@ body{
         padding: 16px 60px;
         height: 80px;
         box-sizing: border-box;
+        grid-column: 2;
     }
 
     .cabecalho__menu, .cabecalho__logo{
@@ -157,6 +158,8 @@ body{
     .menu-lateral{
         position: static;
         width: 200px;
+        grid-column: 1;
+        grid-row: 1/ span 2;
     }
 }
 
@@ -182,6 +185,7 @@ body{
         grid-template-columns: auto 1fr auto;
         column-gap: 32px;
         padding: 16px 60px;
+        grid-column: 2;
     }
 }
 
@@ -291,9 +295,48 @@ body{
         width: 256px;
         padding: 16px;
         box-sizing: border-box;
+    } 
+
+    .cartao--recentes .cartao__titulo{
+    grid-column: auto;
     }
-    
+
+    .cartao__link{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #0480DC;
+    justify-self: flex-end;
+    }
+
+    .cartao__lista{
+        display: grid;
+        row-gap: 16px;
+        grid-column: span 2;
+    }
+    .cartao__item{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 8px;
+    }
+
+    .cartao__intem-thumbnail{
+        width: 32px;
+        grid-row: span 2;
+    }
+
+    .cartao__intem-titulo{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        font-weight: 700;
+    }
+
+    .cartao__item-perfil{
+        font-size: 0.8rem;
+        color: #95999C;
+    }
+   
 }
+
 
 .secao{
     display: grid;

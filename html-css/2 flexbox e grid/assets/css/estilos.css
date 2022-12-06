@@ -278,6 +278,23 @@ body{
     margin-right: 8px;
 }
 
+.cartao--recentes{
+    display: none;
+}
+
+@media screen and (min-width: 1440px){
+    .cartao--recentes{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        row-gap: 24px;
+        width: 256px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    
+}
+
 .secao{
     display: grid;
     gap: 16px;

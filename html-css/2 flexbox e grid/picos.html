@@ -15,6 +15,7 @@
     <header class="cabecalho">
         <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
         <img src="assets/img/logo.svg" alt="logo da HZC" class="cabecalho__logo">
+        <p class="cabecalho__perfil">Bruno Lopez</p>
         <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header>
     <nav class="menu-lateral">
@@ -28,12 +29,52 @@
     </nav>
     <main class="principal">
         <h2 class="titulo-pagina">Picos</h2>
-        <article class="cartao cartao--destaque">
+        <article class="cartao cartao--destaque destaque-local">
             <img src="assets/img/mapa-picos.png" alt="mapa picos" class="cartao__imagem-destaque">
         </article>
         
-        <section class="secao secao-locais">
-            <h3 class="titulo-secao">Locais Mais Visitados</h3>
+
+        <article class="cartao cartao--favoritos secao-favoritos">
+            <h3 class="cartao__titulo">Favoritos</h3>
+            <a href="#" class="cartao__link">Ver Todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_1.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_3.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_4.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_1.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_3.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/artigo_4.png" alt="" class="cartao__item-thumbinail">
+                    <h4 class="cartao__item-titulo">Wallride da FGV</h4>
+                    <p class="cartao__item-perfil">Bruno Lopes</p>
+                </li>
+                
+            </ul>
+        </article>
+
+
+        <section class="secao secao-locais secao-local">
+            <h3 class="titulo-secao ">Locais Mais Visitados</h3>
             <article class="cartao">
                 <img src="assets/img/artigo_1.png" alt="localização 1" class="cartao__imagem">
                 <div class="cartao__conteudo">
@@ -71,9 +112,6 @@
                 </div>
             </article>
         </section>
-        <img src="assets/img/artigo_1.png" alt="" class="imagem__total">
-
-
 
     </main>
 

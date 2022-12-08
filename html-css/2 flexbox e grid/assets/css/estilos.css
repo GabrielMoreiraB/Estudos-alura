@@ -205,6 +205,7 @@ body{
     border-radius: 15px;
     overflow: hidden; /*qualquer coisa que passar do cartão fica escondido*/
     background-color:#2C343A ;
+    
 }
 
 .cartao__destaque--desktop{

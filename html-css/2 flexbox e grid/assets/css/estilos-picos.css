@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    background-color: #1d232a;
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #ffffff;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D232A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    padding: 8px 16px;
+}
+
+.cabecalho__menu::before{
+    content: "\e904";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao::before{
+    content: "\e906";
+    font-size: 24px;
+}
+
+.cabecalho__logo{
+    width: 50px;
+
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+
+    position:absolute;
+    left: -100vw;
+    transition: 0.25s;
+}
+
+.menu-lateral--ativo{
+    left: 0vw;
+    transition: 0.25s;
+}
+
+.menu-lateral__logo{
+    align-self: center;
+    width: 118px;
+    padding: 16px;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: #95999C;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral__link--ativo{
+    color: #ffffff;
+    border-left: 8px solid #ffffff;
+}
+
+.menu-lateral__link::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.menu-lateral__link--inicio::before{
+    content: "\e902";
+}

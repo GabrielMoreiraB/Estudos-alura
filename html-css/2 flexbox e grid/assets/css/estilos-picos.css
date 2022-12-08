@@ -74,8 +74,57 @@ body{
     width: 24px;
     height: 24px;
     font-size: 24px;
+    position: absolute;
+    left: 24px;
 }
 
-.menu-lateral__link--inicio::before{
+.menu-lateral__link--Inicio::before{
     content: "\e902";
 }
+.menu-lateral__link--Videos::before{
+    content: "\e90e";
+}
+.menu-lateral__link--Picos::before{
+    content: "\e909";
+}
+.menu-lateral__link--Integrantes::before{
+    content: "\e903";
+}
+.menu-lateral__link--Camisas::before{
+    content: "\e900";
+}
+.menu-lateral__link--Pinturas::before{
+    content: "\e902";
+}
+
+.principal{
+    padding: 24px 16px;
+    display: grid;
+    gap: 24px;
+}
+
+.titulo-pagina{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-secao{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cartao{
+    width: 100%;
+    border-radius: 15px;
+    background-color:#2C343A;
+    overflow: hidden;
+}
+
+.cartao__destaque{
+    margin-bottom: 16px;
+}
+
+.cartao__imagem-destaque{
+    width: 100vh;
+}
+

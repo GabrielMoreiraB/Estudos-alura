@@ -288,12 +288,6 @@ font-size: 24px;
          align-self:flex-start ;
     }
 
-    .cartao__item-thumbinail{
-        border-radius: 5%;
-        width:48px;
-        grid-row: span 2;
-    }
-
     .cartao--favoritos, .cartao__titulo-favoritos{
         grid-column: auto;
     }
@@ -314,7 +308,13 @@ font-size: 24px;
     .cartao__item{
         display: grid;
         grid-template-columns: auto 1fr;
-        gap: 4px;
+        gap: 8px;
+    }
+
+    .cartao__item-thumbinail{
+        border-radius: 5%;
+        width:48px;
+        grid-row: span 2;
     }
 
     .cartao__item-titulo{

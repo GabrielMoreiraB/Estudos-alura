@@ -4,8 +4,13 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 body{
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Montserrat','icones', sans-serif; ;
 }
 
 header{
@@ -46,6 +51,10 @@ nav a:hover{
 
 header  h1 {
     display: inline-block;
+}
+
+.botao__cabecalho-menu{
+    display: none;
 }
 
 ul#produtos{
@@ -271,14 +280,49 @@ th{
         padding: 0 10px 0 10px;
     }
 
-    h1 {
+    .cabecalho__img {
         display: block;
         text-align: center;
+        width: 100vw;
     }
     
-    nav {
-        position:static;
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .botao__cabecalho-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 24px;
+        width: 100vw;  
+        background-color: #bbbbbb;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        justify-self:center;
+    }
+
+   .botao__cabecalho-menu::before{
+    content: "\e904";
+    font-size: 24px;
+}
+
+    .cabecalho__menu-item{
+        margin: 0px;
+        padding: 8px;
+        border-bottom: 1px solid #9a9999;
+
+    }
+
+    .cabecalho__menu-item-selecao{
+    color: white;
+    border-left:4px solid #8b8a8a;
+    margin-left: 20px;
+    }
+
+    nav{
+        position:static;
     }
 
     .imgem-beneficios, .lista-beneficios{

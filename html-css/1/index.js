@@ -1,6 +1,7 @@
-const botaoMenu = document.querySelector('botao__cabecalho-menu')
-const menu = document.querySelector('cabecalho__menu')
-
-botaoMenu.addEventListener('click', () => {
-    menu.classList.toggle('cabecalho__menu-ativo')
-})
+function clickMenu(){
+    if (cabecalho__menu.style.display == 'flex'){
+        cabecalho__menu.style.display = none
+    }else {
+        cabecalho__menu.style.display = 'flex'
+    }
+}

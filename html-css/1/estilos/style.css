@@ -287,7 +287,7 @@ th{
     }
     
     .cabecalho__menu {
-        display: flex;
+        display: none;
         flex-direction: column;
 
     }
@@ -305,15 +305,10 @@ th{
     }
 
     .botao__cabecalho-menu:hover{
-        border: 1px solid #fefefe;
+        background-color: #555555;
     }
 
-   .botao__cabecalho-menu::before{
-    content: "\e904";
-    font-size: 24px;
-}
-
-    .cabecalho__menu-item{
+       .cabecalho__menu-item{
         margin: 0px;
         padding: 8px;
         border-bottom: 1px solid #9a9999;

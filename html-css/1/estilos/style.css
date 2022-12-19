@@ -289,6 +289,7 @@ th{
     .cabecalho__menu {
         display: flex;
         flex-direction: column;
+
     }
 
     .botao__cabecalho-menu{
@@ -298,9 +299,13 @@ th{
         height: 24px;
         width: 100vw;  
         background-color: #bbbbbb;
-        border-radius: 10px;
+        border: none;
         font-size: 0.9rem;
         justify-self:center;
+    }
+
+    .botao__cabecalho-menu:hover{
+        border: 1px solid #fefefe;
     }
 
    .botao__cabecalho-menu::before{
@@ -340,5 +345,9 @@ th{
         margin-bottom: 20px;
         
         
+    }
+
+    .conteudo-beneficios{
+        margin-bottom: 15px;
     }
 }

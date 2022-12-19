@@ -1,10 +1,11 @@
-body{
-    font-family: 'Montserrat', sans-serif; ;
-}
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; ;
 }
 
 header{
@@ -97,6 +98,9 @@ ul#produtos > li > h2 {
     margin:10px;
 }
 
+.form__contato{
+    margin-left: 20px;
+}
 footer {
     text-align: center;
     background-image: url(../imagens\ produtos/bg.jpg);

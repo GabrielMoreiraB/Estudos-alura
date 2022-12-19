@@ -46,7 +46,7 @@ nav a {
 
 nav a:hover{
     text-decoration: underline;
-    color: #c78c19;
+    color: #2337a3;
 }
 
 header  h1 {
@@ -80,7 +80,7 @@ ul#produtos > li > h2 {
 
 
 #produtos > li:hover{
-    border-color:#c78c19;
+    border-color:#2337a3;
     
 }
 
@@ -305,7 +305,7 @@ th{
     }
 
     .botao__cabecalho-menu:hover{
-        background-color: #555555;
+        background-color: #c4c3c3;
     }
 
        .cabecalho__menu-item{
@@ -319,6 +319,7 @@ th{
     color: white;
     border-left:4px solid #8b8a8a;
     margin-left: 20px;
+    background-color: #c4c3c3;
     }
 
     nav{
